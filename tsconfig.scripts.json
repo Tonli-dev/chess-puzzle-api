@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "dist", // Not strictly needed for ts-node, but good practice
+    "sourceMap": true,
+    "lib": ["esnext"]
+  },
+  "include": [
+    "scripts/**/*.ts" // Only apply this config to files in the scripts folder
+  ]
+}
